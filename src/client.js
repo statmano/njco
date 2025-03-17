@@ -4,11 +4,11 @@
 console.log("hello world :o yooo");
 
 $("#History").click(function(){
-  window.location = "history.html"
+  window.location = "njco/history.html"
 });
 
 $("#Records").click(function(){
-  window.location = "records.html"
+  window.location = "njco/records.html"
 });
 
 $("#Rulebook").click(function(){
@@ -16,7 +16,7 @@ $("#Rulebook").click(function(){
 });
 
 $("#Recaps").click(function(){
-  window.location = "draftrecaps.html"
+  window.location = "njco/draftrecaps.html"
 });
 
 $("#HOF").click(function(){
