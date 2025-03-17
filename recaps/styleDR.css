@@ -1,0 +1,156 @@
+/* CSS files add styling rules to your content */
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 12px;
+}
+
+img {
+ border-radius: 40px; 
+  padding: 3px;
+}
+
+
+.top-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 600px;
+  max-width: 95vw;
+  margin: auto;
+  text-align: center;
+}
+
+.bottom-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 600px;
+  max-width: 95vw;
+  margin: 5px auto;
+}
+
+p {
+  line-height: 1.45;
+}
+
+
+#main-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo {
+  margin: 0px 0px 10px 0px;
+  max-width: 95vw;
+}
+
+#demotext {
+    font-size: 70px;
+    color: #e08300;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-shadow: 0px 0px 0 rgb(219,126,0),
+                 1px 1px 0 rgb(214,121,0),
+                 2px 2px 0 rgb(209,116,0),
+                 3px 3px 0 rgb(204,111,0),
+                 4px 4px 0 rgb(199,106,0),
+                 5px 5px 0 rgb(194,101,0),
+                 6px 6px 0 rgb(189,96,0),
+                 7px 7px 0 rgb(184,91,0),
+                 8px 8px 0 rgb(179,86,0),
+                 9px 9px 0 rgb(174,81,0),
+                 10px 10px  0 rgb(169,76,0),
+                 11px 11px 10px rgba(0,0,0,0.6),
+                 11px 11px 1px rgba(0,0,0,0.5),
+                 0px 0px 10px rgba(0,0,0,.2);
+ }
+}
+
+.statement-for {
+  padding: 8px;
+  text-align: left;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0,0,0, .35);
+  background: #072c68;
+  color: #FFF;
+  font-size: 12px;
+}
+
+.titles {
+ font-weight: bold;
+ font-size: 16px;
+ text-align: center;  
+ padding: 5px 0px 5px 0px;
+ grid-column: 1 / 3;
+ background: #e2860d;
+ border-radius: 10px 10px 0px 0px; 
+
+}
+
+h1 {
+  color: #072c68;
+}
+
+.money {
+  border: 1px solid #c9c9c9;
+  padding: 5px 5px 5px 5px;
+  vertical-align: middle;
+  grid-colummn: 2 / 3;
+}
+
+.money2 {
+  border: 1px solid #c9c9c9;
+  padding: 5px 5px 5px 5px;
+  vertical-align: middle;
+  grid-colummn: 2 / 3;
+}
+
+.space {
+  margin: 1em 0;
+}
+
+.space > img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+li:before { 
+  content: '\1F3C8'; margin-left: -20px; margin-right: 0px; 
+} 
+
+.notes {
+ grid-column: 1/3;
+ background: #072c68;
+ color: #FFF;
+ font-size: 3em;
+ border-radius: 10px 10px 0px 0px;
+ text-align: center;
+ padding: 5px; 
+}
+
+
+
+.contents {
+  border: 1px solid #c9c9c9;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-border1 {
+    background-color: #072c68;
+    height: 16px;
+}
+
+.footer-border2 {
+    background-color: #e2860d;
+    height: 16px;
+}
+
+.footer-border3 {
+    background-color: #FFF;
+    height: 16px;
+}
+
+.footer-border4 {
+    background-color: #072c68;
+    height: 50px;
+}
