@@ -1,0 +1,188 @@
+/* CSS files add styling rules to your content */
+#holder {
+  min-height: 100vh;
+  position: relative;
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 12px;
+  background-image: repeating-linear-gradient(45deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(17, 17, 17),rgb(66, 66, 66));
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  height: 100vh;
+}
+
+img {
+  width: 100vw;
+  height: 21vh;
+  object-fit: cover;
+}
+
+.top-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: auto;
+  text-align: center;
+}
+
+.bottom-form {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  max-width: 800px;
+  margin: 5px auto;
+  padding: 0px 0px 100px 0px;
+}
+
+p {
+  line-height: 1.45;
+}
+
+
+#main-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.logo {
+  margin: 0px 0px 10px 0px;
+  max-width: 100vw;
+}
+
+.statement-for {
+  padding: 8px;
+  text-align: center;
+
+  color: #FFF;
+  font-size: 12px;
+}
+
+.titles {
+ font-weight: bold;
+ font-size: 16px;
+ text-align: center;  
+ padding: 5px 0px 5px 0px;
+ grid-column: 1 / 3;
+ background: #dcff14;
+ border-radius: 10px 10px 0px 0px; 
+}
+
+.money {
+  border: 1px solid #c9c9c9;
+  padding: 5px 5px 5px 5px;
+  vertical-align: middle;
+  grid-colummn: 2 / 3;
+  background-color: #FFFFFF;
+}
+
+.money2 {
+  border: 1px solid #c9c9c9;
+  padding: 5px 5px 5px 5px;
+  vertical-align: middle;
+  grid-colummn: 2 / 3;
+  background-color: #ffffff;
+}
+
+.space {
+  margin: 1em 0;
+}
+
+.notes {
+ grid-column: 1/3;
+ background: #072c68;
+ color: #FFF;
+ font-size: 3em;
+ border-radius: 10px 10px 0px 0px;
+ text-align: center;
+ padding: 5px; 
+}
+
+.contents {
+  border: 1px solid #c9c9c9;
+  padding: 20px 0px 20px 10px;
+  background-color: #FFFFFF;
+}
+
+.button-list {
+  grid-column: 1/3;
+  margin: 10px auto;
+}
+
+.button-list > button {
+	box-shadow:inset 0px 1px 0px 0px #74ff03;
+	background:linear-gradient(to bottom, #d5fa00 5%, #8bcc00 100%);
+	background-color:#d5fa00;
+	border-radius:6px;
+	border:1px solid #7ec700;
+	display:inline-block;
+	cursor:pointer;
+	color: #4a4a4a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #598f03;
+  height: 7vh;
+  width: 40vw;
+}
+
+.button-list > button {
+	background:linear-gradient(to bottom, #8bcc00 5%, #d5fa00 100%);
+	background-color:#8bcc00;
+}
+.button-list > button {
+	position:relative;
+	top:1px;
+}
+
+footer {
+  height: 100px;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.footer-border1 {
+    background-color: #a1a1a1;
+    height: 16px;
+}
+
+.footer-border2 {
+    background-color: #dcff14;
+    height: 16px;
+}
+
+.footer-border3 {
+    background-color: #4a4a4a;
+    height: 16px;
+}
+
+.footer-border4 {
+    background-color: #a1a1a1;
+    height: 50px;
+}
+
+.records-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+  border: solid 2px #dcff14;
+  border-radius: 5px;
+  width: 600px;
+  max-width: 95vw;
+  margin: 5px auto;
+  background-color: #FFFFFF;
+  padding: 3px;
+}
+
+.records-table_heading {
+  margin: auto auto;
+  background-color: #FFFFFF;
+}
+
+.table-data {
+  background-color: #FFFFFF;
+}
