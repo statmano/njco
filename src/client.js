@@ -4,7 +4,7 @@
 console.log("hello world :o yooo");
 
 $("#History").click(function(){
-  window.location = "/history.html"
+  window.location = "history.html"
 });
 
 $("#Records").click(function(){
@@ -16,7 +16,7 @@ $("#Rulebook").click(function(){
 });
 
 $("#Recaps").click(function(){
-  window.location = "/draftrecaps.html"
+  window.location = "draftrecaps.html"
 });
 
 $("#HOF").click(function(){
