@@ -1,7 +1,7 @@
 // client-side js
 // run by the browser each time your view template referencing it is loaded
 
-console.log("hello world :o yooo");
+console.log("hello world :o yooo!!!");
 
 $("#History").click(function(){
   window.location = "/history.html"
