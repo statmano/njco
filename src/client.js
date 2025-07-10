@@ -20,7 +20,7 @@ $("#Recaps").click(function(){
 });
 
 $("#HOF").click(function(){
-  window.open("https://njco-halloffame.glitch.me", "_blank");
+  window.open("https://statmano.github.io/njco-hof/", "_blank");
 });
 
 const managers = [
