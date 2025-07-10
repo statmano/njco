@@ -12,7 +12,7 @@ $("#Records").click(function(){
 });
 
 $("#Rulebook").click(function(){
-  window.location = ("https://njcorulebook.onrender.com/", "_blank");
+  window.open("https://njcorulebook.onrender.com/", "_blank");
 });
 
 $("#Recaps").click(function(){
