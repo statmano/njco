@@ -16,7 +16,7 @@ $("#Rulebook").click(function(){
 });
 
 $("#Recaps").click(function(){
-  window.location = "/draftrecaps.html"
+  window.location = "statmano/njco/draftrecaps.html"
 });
 
 $("#HOF").click(function(){
