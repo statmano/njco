@@ -81,7 +81,7 @@ const managers = [
     ties: 0,
     conf: 4,
     playoffs: 7,
-    champGames: 4,
+    champGames: 5,
     titles: 4
   },
   {
@@ -91,7 +91,7 @@ const managers = [
     ties: 0,
     conf: 5,
     playoffs: 8,
-    champGames: 7,
+    champGames: 6,
     titles: 3
   },
   {
